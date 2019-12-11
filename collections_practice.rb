@@ -1,4 +1,3 @@
-require "pry"
 def sort_array_asc(array)
   array.sort
 end
@@ -39,5 +38,4 @@ end
 def add_s(array) 
   
   array.each_with_index.collect { |string, index| index == 1 ? string : string+"s"  }
-  # binding.pry
 end
